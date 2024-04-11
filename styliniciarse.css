@@ -1,0 +1,189 @@
+header {
+    background-color:#297EB0;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu {
+  position: fixed; /* Fija el menú en la parte superior */
+  top: 0; /* Coloca el menú en la parte superior de la ventana */
+  width: 100%; /* Ancho completo */
+  background: linear-gradient(to bottom, #297EB0, #15334D); /* Color de fondo del menú */
+  z-index: 1000; /* Asegura que el menú esté en la parte superior de otros elementos */
+}
+
+.menu ul {
+  list-style-type: none; /* Elimina los estilos de lista predeterminados */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 27px 29px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #1C7EBB; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.menu .derecha {
+  float: right; /* Alinea los elementos a la derecha */
+}
+
+.submenu {
+  display: none; /* Oculta el submenú por defecto */
+  position: absolute;
+  background-color: #03463F;
+  min-width: 160px;
+  z-index: 1001;
+}
+
+.submenu li {
+  display: block;
+}
+
+.submenu li a {
+  padding: 12px 16px;
+}
+
+.menu li:hover .submenu {
+  display: block; /* Muestra el submenú cuando se pasa el mouse sobre el elemento padre */
+}
+
+body {
+   
+	margin-left: 0;
+	margin-right: 0;
+	
+	margin-bottom: 0;
+	  margin-top: 50px; /* Espacio para evitar que el contenido se superponga con el menú */
+  padding-top: 100px;
+	padding: 0;
+    background-image: url("imagenes/login_page_6_web-[Convertido].jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 780px;
+	background-position:bottom;
+	
+}
+h1{
+	color: #0066A4 ;
+	text-align: center;
+   text-shadow: 2px 2px 0 black, 
+               -2px -2px 0 black, 
+               2px -2px 0 black, 
+               -2px 2px 0 black; 
+   
+	
+}
+h5{
+	color: #006BAB;
+	text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin-left:85%;
+    padding-top: 23%;
+	 margin-right: -145px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-box {
+    background-color: rgba(0,92,149,1.00) ; /* Azul transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+	width: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+	
+
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+	background: linear-gradient(to bottom, #C0E6FD, #0054ff);
+	border-radius: 25px;
+	
+	
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+	
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+	
+	
+}
+
+.input-email::placeholder {
+    color: #FFFBFB; /* Cambia el color del placeholder de los inputs con clase "input-nombre" */
+}
+
+
+button {
+	
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px; /* Relleno del botón */
+    border: none; /* Sin borde */
+    border-radius: 25px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar el ratón */
+	background: linear-gradient(to bottom, #126296, #0054ff);
+	width: 50%;
+	
+}
+
+button:hover{
+	background-color: #45a049;
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el ratón */
+}

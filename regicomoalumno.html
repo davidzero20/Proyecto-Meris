@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Alumno</title>
+    <link rel="stylesheet" href="styalumno.css">
+	
+	 <div class="menu">
+  <ul>
+    <li><a href="INICIO.html">Inicio</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  <li class="derecha"><a href="#registro">Registrarse</a>
+      <ul class="submenu">
+       <li><a href="regicomoalumno.html">Como Alumno</a></li>
+        <li><a href="regicomomaestro.html">Como Maestro</a></li>
+      </ul>
+    </li>
+    <li class="derecha"><a href="#iniciar-sesion">Iniciar Sesión</a></li>
+  </ul>
+</div>
+
+
+<div class="contenido">
+  <!-- Aquí va el contenido de tu página -->
+</div>
+
+
+	
+	
+	
+</head>
+<body>
+	
+	<div align="left"></div>
+    <div class="container">
+        <h1>Registro</h1>
+		<h5 align="center">Se regristrará como alumno</h5>
+        <form action="procesar_registro_alumno.php" method="POST">
+            <div class="form-group">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" placeholder="Contraseña" required>
+            </div>
+            <div align="center" class="form-group">
+                <button type="submit">Registrarse</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

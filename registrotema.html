@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Tema</title>
+	
+	 
+<div class="contenido">
+  <!-- Aquí va el contenido de tu página -->
+</div>	
+</head>
+<body>
+
+   
+	<div class="menu">
+
+	<nav>
+        <ul>
+            <li><a href="#Nombre_Tema">Nombre Tema</a></li>
+            <li><a href="#Descripcion_Tema">Descripcion Del Tema</a></li>
+            <li><a href="#ID_Docente">ID Del Docente</a></li>
+        </ul>
+    </nav>
+		 <img src="imagenes/insti.png" alt="Logo" class="logo">
+		</div>	
+	
+		 <header> 
+        <h1>Interfaz del Maestro</h1>
+    </header>
+		
+    <div class="container">
+        <section id="crear_curso">
+            <h2>Crear Curso</h2>
+            <!-- Formulario para crear un nuevo curso -->
+            <form action="agregardatos.php" method="get">
+				<label for="ID_Tema">ID_Usuario:</label>
+                <input type="text" id="ID_Tema" name="ID_Tema" required><br><br>
+                <label for="Nombre_Tema">Nombre del Tema:</label>
+                <input type="text" id="Nombre_Tema" name="Nombre_Tema" required><br><br>
+				<label for="Descripcion_Tema">Descripcion del Tema:</label>
+                <input type="text" id="Descripcion_Tema" name="Descripcion_Tema" required><br><br>
+				<label for="ID_Docente">ID_Docente:</label>
+                <input type="text" id="ID_Docente" name="ID_Docente" required><br><br>
+                <button type="submit">Crear Tema</button>
+            </form>
+			
+        </section>
+    </div>
+</body>
+</html>

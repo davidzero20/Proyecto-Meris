@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+}
+
+.column-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.column-right {
+    flex: 1;
+    padding: 20px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0B4744; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 10px; /* Espacio entre los botones */
+}
+
+.btn:hover {
+    background-color: #71E3E1; /* Color de fondo del botón al pasar el ratón */
+}
+
+.container {
+    margin-top: 20px; /* Espacio por encima de los botones */
+    text-align: center; /* Centrar los botones horizontalmente */
+}

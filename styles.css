@@ -1,0 +1,86 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #78C4B9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-container {
+    float: right;
+    width: 50%; /* Ajusta el ancho del formulario */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 800px;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+.objetivo {
+    background-color: #CEF1EC;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.objetivo h2 {
+    color: #333;
+}
+
+.objetivo p {
+    color: #666;
+}
+
+.indice{
+	 background-color: #78C4B9;
+	
+	 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0B4744; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 10px; /* Espacio entre los botones */
+}
+
+.btn:hover {
+    background-color: #71E3E1; /* Color de fondo del botón al pasar el ratón */
+}
+
+.container {
+    margin-top: 20px; /* Espacio por encima de los botones */
+    text-align: center; /* Centrar los botones horizontalmente */
+}
